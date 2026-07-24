@@ -3,6 +3,14 @@
 Página simple en HTML puro sobre una excursión a Lauterbrunnen, Suiza. 
 Incluye galería, descripción, itinerarios y otras actividades.
 
+## Realizado por 
+
+Marco Tulio Pineda Recinos 
+
+## Enlace 
+
+sensational-manatee-5fd5cd.netlify.app
+
 ## Previsualización
 
 ![Previsualización del proyecto](./images/projectview1.png)
