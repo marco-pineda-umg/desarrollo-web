@@ -4,7 +4,7 @@ Incluye catálogo de productos, obras a la venta, formularios y sección informa
 ## Realizado por 
 Marco Tulio Pineda Recinos 
 ## Enlace 
-[papaya-cactus-aafbf3.netlify.app](papaya-cactus-aafbf3.netlify.app)
+papaya-cactus-aafbf3.netlify.app
 ## Previsualización
 ![Previsualización del proyecto](./images/ss1.png)
 ![Previsualización del proyecto](./images/ss2.png)
