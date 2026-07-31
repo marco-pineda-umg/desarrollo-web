@@ -1,42 +1,44 @@
 # Excursión a Lauterbrunnen
 
-Página simple en HTML puro sobre una excursión a Lauterbrunnen, Suiza. 
-Incluye galería, descripción, itinerarios y otras actividades.
+Página web desarrollada con HTML y CSS sobre una excursión a Lauterbrunnen, Suiza. Incluye una descripción del destino, galería de imágenes, itinerario de actividades y opciones adicionales para realizar durante la visita. El sitio utiliza un diseño moderno responsive con efectos de transparencia, y barra de navegacion flotante.
 
-## Realizado por 
+## Realizado por
 
-Marco Tulio Pineda Recinos 
+Marco Tulio Pineda Recinos
 
-## Enlace 
+## Enlace
 
-sensational-manatee-5fd5cd.netlify.app
+https://aquamarine-pudding-61fc94.netlify.app/
 
 ## Previsualización
 
 ![Previsualización del proyecto](./images/projectview1.png)
-![Previsualización del proyecto](./images/projectview2.png)
-
 
 ## Características
 
-- Navegación entre secciones de la página
-- Galería de imágenes
-- Despliegue de información en tablas
-- Estructura semántica
+- Navegación entre las diferentes secciones de la página
+- Barra de navegación fija 
+- Diseño moderno con transparencias, sombras y efectos al pasar el cursor
+- Estructura semántica del contenido
 
 ## Tecnologías utilizadas
 
 - HTML5
+- CSS3
 
 ## Estructura del proyecto
 
 ```text
-HojaTrabajo1/
+HojaTrabajo2/
 ├── index.html
 ├── README.md
+├── css/
+│   └── style.css
 └── images/
+    ├── banner.jpg
     ├── landscape1.jpg
     ├── landscape2.jpg
     ├── landscape3.jpg
-    └── landscape4.jpg
+    ├── landscape4.jpg
+    └── projectview1.png
 ```
