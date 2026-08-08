@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ht2 ~ Marco</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="modal" class="modal oculto">
+        <div class="modal-contenido">
+            <button id="cerrar-modal">&#x2715;</button>
+            <img id="modal-imagen" src="" alt="">
+            <p id="modal-titulo"></p>
+        </div>
+    </div>
+
+    <nav>
+        <h2>
+            LB
+        </h2>
+        <ol>
+            <li><a href="#descripcion">Descripcion</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#itinerarios">Itinerarios</a></li>
+            <li><a href="#otras-actividades">Actividades</a></li>
+            <li><a href="#cotizacion">Cotizacion</a></li>
+            <li><a href="#reservacion">Reservacion</a></li>
+            <li><a href="#resenas">Resenas</a></li>
+        </ol>
+    </nav>
+
+    <header class="hero">
+        <h1>Lauterbrunnen</h1>
+        <h2>Suiza</h2>
+        <p>un lugar magico de paz y cascadas</p>
+    </header>
+
+    <main>
+        <section id="descripcion">
+            <h2>Descripcion</h2>
+            <p>
+                Lauterbrunnen es una comuna suiza del cantón de Berna, situada en el distrito administrativo de Interlaken-Oberhasli.
+                Al igual que Grindelwald, Lauterbrunnen se ha convertido en un destino turístico muy popular, ya que está conectado por
+                tren hacia Interlaken y hacia Kleine Scheidegg, donde comienza el tren del Jungfrau, la línea férrea más alta de Europa
+                y la puerta de entrada a la zona protegida de Jungfrau-Aletsch.
+            </p>
+            <p>
+                La primera vez que aparece mencionado el valle de Lauterbrunnen, durante el siglo XIII, estaba en posesión del freiherr
+                de Wädenswil. En 1240 este freiherr vendió el valle de Sefinen al monasterio de Interlaken, quien comenzaron a extender
+                su influencia por el valle y sus alrededores. Sin embargo, en torno al 1300, el señor de Thun comenzó a poblar el cercano
+                valle de Lötschen y las tierras altas del valle de Lauterbrunnen con sus ciudadanos que hablaban el dialecto valesano alemán.
+                En 1346, las villas valesanas de Lauterbrunnen, Gimmelwald, Mürren, Sichellauenen y Trachsellauenen tenían sus propios gobiernos
+                y una cierta autonomía con respecto al monasterio. Tres años más tarde, la mayoría del oberland de Berna se rebeló fallidamente contra
+                el monasterio, y las villas valesanas sufrieron la ira de los eclesiásticos. En el siglo XV, las villas del valle formaban
+                parte de la gran feligresía de Gsteig bei Interlaken. En 1528, la ciudad de Berna adoptó la nueva fe tras la Reforma protestante y
+                comenzó a imponerla en el oberland. Lauterbrunnen se unió a otras villas en una rebelión fallida y el monasterio de Interlaken fue
+                secularizado y anexado, convirtiéndose Lauterbrunnen en el nuevo centro de la feligresía protestante.
+            </p>
+        </section>
+
+        <section id="galeria">
+            <h2>Galeria</h2>
+            <p class="galeria-aviso">Haz clic en cualquier imagen para verla en detalle.</p>
+            <div id="container-gallery">
+                <table>
+                    <tr>
+                        <td><img src="./images/landscape1.jpg" alt="Vista panoramica del valle" class="imagen-galeria" data-titulo="Vista panoramica del valle de Lauterbrunnen"></td>
+                        <td><img src="./images/landscape2.jpg" alt="Cascada Staubbach" class="imagen-galeria" data-titulo="Cascada Staubbach al atardecer"></td>
+                        <td><img src="./images/landscape3.jpg" alt="Pueblo alpino de Murren" class="imagen-galeria" data-titulo="Pueblo alpino de Murren"></td>
+                        <td><img src="./images/landscape4.jpg" alt="Senderos entre cascadas" class="imagen-galeria" data-titulo="Senderos entre cascadas del valle"></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <section id="itinerarios">
+            <h2>Itinerarios</h2>
+            <table border="1" cellspacing="0" cellpadding="10">
+                <thead>
+                    <tr>
+                        <th><strong>Hora</strong></th>
+                        <th><strong>Actividad</strong></th>
+                        <th><strong>Lugar</strong></th>
+                        <th><strong>Duracion</strong></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>8:00 AM</td>
+                        <td>Desayuno</td>
+                        <td>Restaurante local</td>
+                        <td>1 hora</td>
+                    </tr>
+                    <tr>
+                        <td>9:00 AM</td>
+                        <td>Caminata por el pueblo</td>
+                        <td>Pueblo de Lauterbrunnen</td>
+                        <td>1 hora</td>
+                    </tr>
+                    <tr>
+                        <td>10:00 AM</td>
+                        <td>Visita a la cascada Staubbach</td>
+                        <td>Staubbachfall</td>
+                        <td>1 hora 30 minutos</td>
+                    </tr>
+                    <tr>
+                        <td>11:30 AM</td>
+                        <td>Recorrido por el valle</td>
+                        <td>Valle de Lauterbrunnen</td>
+                        <td>2 horas</td>
+                    </tr>
+                    <tr>
+                        <td>01:30 PM</td>
+                        <td>Almuerzo</td>
+                        <td>Restaurante local</td>
+                        <td>1 hora 30 minutos</td>
+                    </tr>
+                    <tr>
+                        <td>03:00 PM</td>
+                        <td>Visita a las cascadas de Trummelbach</td>
+                        <td>Trummelbachfalle</td>
+                        <td>2 horas</td>
+                    </tr>
+                    <tr>
+                        <td>05:00 PM</td>
+                        <td>Tiempo libre y fotografias</td>
+                        <td>Centro del pueblo</td>
+                        <td>1 hora</td>
+                    </tr>
+                    <tr>
+                        <td>06:00 PM</td>
+                        <td>Cena</td>
+                        <td>Restaurante local</td>
+                        <td>1 hora</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="otras-actividades">
+            <h2>Otras actividades</h2>
+            <input type="text" id="buscador" placeholder="Buscar actividad...">
+            <ul id="lista-actividades">
+                <li><strong>Senderismo</strong><br>Recorrer los senderos del valle de Lauterbrunnen y disfrutar las montanas, los campos y las cascadas.</li>
+                <li><strong>Visita a Murren</strong><br>Conocer el pequeno pueblo alpino de Murren, ubicado en las montanas y accesible mediante teleferico y tren.</li>
+                <li><strong>Paseo en el teleferico</strong><br>Subir en el teleferico para observar una vista panoramica del valle y de las montanas de los Alpes suizos.</li>
+                <li><strong>Ciclismo</strong><br>Alquilar una bicicleta y recorrer las rutas del valle, pasando por pueblos, cascadas y paisajes naturales.</li>
+                <li><strong>Visita al Jungfraujoch</strong><br>Realizar una excursion en tren hacia Jungfraujoch, uno de los puntos turisticos mas famosos de Suiza.</li>
+                <li><strong>Parapente</strong><br>Volar sobre el valle acompanado por un instructor y contemplar Lauterbrunnen desde el aire.</li>
+            </ul>
+        </section>
+
+        <section id="cotizacion">
+            <h2>Cotizacion</h2>
+            <form id="form-cotizacion">
+                <label>
+                    Numero de asistentes
+                    <input type="number" id="asistentes" min="1" value="1">
+                </label>
+                <label>
+                    Tipo de paquete
+                    <select id="paquete">
+                        <option value="1200">Basico — Q1,200 por persona</option>
+                        <option value="2000">Estandar — Q2,000 por persona</option>
+                        <option value="3200">Premium — Q3,200 por persona</option>
+                    </select>
+                </label>
+                <p class="servicios-titulo">Servicios adicionales:</p>
+                <label class="check">
+                    <input type="checkbox" id="transporte"> Transporte incluido (+Q250 por persona)
+                </label>
+                <label class="check">
+                    <input type="checkbox" id="alimentacion"> Alimentacion (+Q320 por persona)
+                </label>
+                <label class="check">
+                    <input type="checkbox" id="equipo"> Equipo de aventura (+Q200 por persona)
+                </label>
+                <button type="button" id="calcular" class="boton">Calcular Total</button>
+                <p id="resultado-cotizacion"></p>
+            </form>
+        </section>
+
+        <section id="reservacion">
+            <h2>Reservacion</h2>
+            <form id="form-reservacion">
+                <label>
+                    Nombre completo
+                    <input type="text" id="nombre" placeholder="Tu nombre">
+                </label>
+                <label>
+                    Correo electronico
+                    <input type="email" id="correo" placeholder="tu@correo.com">
+                </label>
+                <label>
+                    Fecha del viaje
+                    <input type="date" id="fecha">
+                </label>
+                <label>
+                    Numero de personas
+                    <input type="number" id="personas" min="1" value="1">
+                </label>
+                <button type="button" id="reservar" class="boton">Enviar reservacion</button>
+                <p id="mensaje-reservacion"></p>
+            </form>
+        </section>
+
+        <section id="resenas">
+            <h2>Opiniones de nuestros visitantes</h2>
+            <div id="tarjeta-resena">
+                <p id="resena-texto"></p>
+                <p id="resena-nombre"></p>
+            </div>
+            <button id="nueva-resena" class="boton">Ver otra opinion</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Marco Tulio Pineda Recinos</p>
+        <p>Fuentes: Wikipedia</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
