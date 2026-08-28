@@ -2,7 +2,7 @@
 
 Tarea número 2, tienda en linea desarrollada con React y Bootstrap
 
----
+- Enlace: https://spontaneous-dragon-f39a18.netlify.app/
 
 ## Características
 
@@ -12,12 +12,12 @@ Tarea número 2, tienda en linea desarrollada con React y Bootstrap
 
 ## Componentes de React
 
-- Nav.jsx
-- Hero.jsx
-- Itemcard.jsx
-- Carousel.jsx
-- Testimonial.jsx
-- Footer.jsx
+- Nav.jsx: barra de navegación.
+- Hero.jsx: banner principal de mensaje de bienvenida.
+- Itemcard.jsx: tarjeta para los productos en oferta y nuevos
+- Carousel.jsx: despliegue de imagenes dinámico.
+- Testimonial.jsx: tarjeta para los testimonios.
+- Footer.jsx: pie de pagina con mi información.
 
 ## Componentes de Bootstrap
 
