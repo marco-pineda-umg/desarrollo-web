@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(
+      circle at 15% 10%,
+      rgba(54, 112, 78, 0.15),
+      transparent 55%
+    ),
+    radial-gradient(
+      circle at 85% 40%,
+      rgba(54, 112, 78, 0.15),
+      transparent 50%
+    ),
+    linear-gradient(180deg, #ffffff 0%, #fafaf7 100%);
+  background-attachment: fixed;
+}
+
+#app-container,
+.navbar > .container,
+#footer > .container {
+  max-width: max(57%, 540px);
+}
+
+.hero {
+  position: relative;
+  height: clamp(220px, 28vw, 400px);
+  overflow: hidden;
+  border-radius: 25px;
+  margin: 1rem auto;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(47%);
+}
+
+.hero-content {
+  position: absolute;
+  inset: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+.section-title {
+  margin-bottom: 1.5rem;
+}
+
+.section-block,
+.hero {
+  margin-inline: auto;
+  margin-bottom: 3rem;
+}
+
+section h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 550;
+  font-size: clamp(1.75rem, 4vw, 40px);
+  margin: 0;
+}
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+.card-img-top {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  padding: 0.5rem;
+  border-radius: 0.75rem;
+}
+.underline {
+  width: 100px;
+  height: 6px;
+  background: linear-gradient(
+    90deg,
+    rgba(54, 112, 78, 1) 23%,
+    rgba(255, 255, 255, 0.01) 100%
+  );
+  border-radius: 25px;
+  position: relative;
+  margin: 0;
+}
+
+.btn-item {
+  background-color: #36704e;
+  color: white;
+}
+
+.card {
+  max-width: 13rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.navbar > .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#ver-todo {
+  align-self: center;
+  font-family: "Roboto", sans-serif;
+  color: #36704e;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+#ver-todo:hover {
+  text-decoration: underline;
+}
+
+.carousel {
+  height: clamp(240px, 30vw, 460px);
+  overflow: hidden;
+}
+
+.carousel-inner,
+.carousel-item {
+  height: 100%;
+}
+
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;
+}
+
+#testimonios {
+  margin-bottom: clamp(3rem, 8vw, 6rem);
+}
+
+#footer {
+  padding-block: clamp(2rem, 6vw, 4rem);
+  background-color: #2c613a;
+  color: #8cc29a;
+  font-family: "Roboto", sans-serif;
+}
+.col-info {
+  color: white;
+}
+#footer p {
+  margin: 0;
+}
+
+.account-section {
+  padding-top: 1rem;
+  scroll-margin-top: 6rem;
+}
+
+#root {
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+#root > .navbar,
+#footer {
+  flex-shrink: 0;
+}
+
+.account-page {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding-block: 2rem;
+}
+
+.account-page .account-section {
+  width: 100%;
+  margin-bottom: 0;
+  padding-top: 0;
+}
+
+.account-section .card {
+  margin-inline: auto;
+}
+
+.navbar-collapse {
+  min-width: 0;
+}
+
+.navbar-nav {
+  gap: 0.25rem;
+}
+
+.navbar-user {
+  display: block;
+  max-width: 10rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.navbar .btn {
+  white-space: nowrap;
+}
+
+@media (min-width: 992px) {
+  .navbar-nav {
+    align-items: center;
+  }
+}
